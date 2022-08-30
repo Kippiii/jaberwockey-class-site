@@ -131,6 +131,20 @@
       </div>
     </div>
   </div>
+
+  <script>
+    img_hack();
+    addEventListener('resize', img_hack);
+
+    function img_hack() {
+      if (window.innerWidth < 768)
+        for (x of document.getElementsByClassName("img-fluid"))
+          x.className = "img-fluid rounded-top"
+      else
+        for (x of document.getElementsByClassName("img-fluid"))
+          x.className = "img-fluid rounded-start"
+    }
+  </script>
 </body>
 
 </html>
