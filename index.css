@@ -31,4 +31,5 @@ a:hover {
 
 .broken-link:hover {
   cursor: not-allowed !important;
+  text-decoration: none !important;
 }
