@@ -33,3 +33,22 @@ a:hover {
   cursor: not-allowed !important;
   text-decoration: none !important;
 }
+
+#external-links {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.external {
+  list-style-type: none;
+  padding-right: 20px;
+  font-size: 20px;
+  display: inline-block;
+}
+
+.external img {
+  width: 20px;
+  margin-right: 3px;
+  padding-top: 0px;
+  padding-bottom: 5px;
+}
